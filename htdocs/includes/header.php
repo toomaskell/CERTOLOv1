@@ -267,7 +267,7 @@ $csrfToken = Security::generateCSRFToken();
                                 </li>
                                 
                                 <li class="nav-item <?php echo $currentPage === 'reviews' ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="/applications?status=under_review">
+                                    <a class="nav-link" href="/reviews">
                                         <span class="nav-link-icon d-md-none d-lg-inline-block">
                                             <i class="ti ti-clipboard-check"></i>
                                         </span>
